@@ -1,0 +1,12 @@
+# s_from_list=set([1,2,3,])
+# print(type(s_from_list))
+# l=[1,2,4,5,6,7,8]
+# s_from_list=set(l)
+# print(type(s_from_list))
+s=set()
+s.add(1)
+s.add(2)
+s.add(3)
+s1=s.intersection({1,2,3,4})
+# print(s,s1)
+print(min(s1))

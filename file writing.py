@@ -1,0 +1,8 @@
+# f=open("file2.txt","w")
+# a=f.write("Asad is a good boy\n")
+# print(a)
+# f.close()
+f=open("file1.txt","r+")
+print(f.read(15))
+print(f.write("he has 4 siblings "))
+f.close()
